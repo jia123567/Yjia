@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>生茧生——音乐</title>
+		<meta
+		name="description"
+		content="about net alert">
+		<link rel="icon"
+		href="茧（页面图标）.jpg">
+       
+       <style>
+
+		body{
+			background-image: url("音乐背景1.JPG");
+			background-size: cover;
+		}
+
+		.手工_button{
+			position: absolute;
+			top: 300px;
+			left: 315px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.手工_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+
+		.音乐_button{
+			position: absolute;
+			top: 300px;
+			left: 565px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.音乐_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+
+		.体育_button{
+			position: absolute;
+			top: 300px;
+			left: 785px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.体育_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+
+
+
+		.动漫_button{
+			position: absolute;
+			top: 400px;
+			left: 315px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.动漫_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+
+		
+		.科技_button{
+			position: absolute;
+			top: 400px;
+			left: 565px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.科技_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+		.户外_button{
+			position: absolute;
+			top: 400px;
+			left: 785px;
+			text-align: center;
+			width: 120px; 
+            height: 40px; 
+            font-size: 24px; 
+			border: none;
+			color: rgb(255, 255, 255);
+			background-color: rgb(232, 193, 103);
+            cursor:grab;
+			border-radius: 50px;
+			transition:background-color 1s
+			
+		}
+
+		.户外_button:hover{
+			background-color: rgb(255, 115, 0);
+			border-radius:10px;
+		}
+		
+	   </style>
+	   
+
+	</head>
+
+	
+	<body>
+        <button class="手工_button" onclick="手工ButtonPressed()">手工</button>
+		<button class="音乐_button" onclick="音乐ButtonPressed()">音乐</button>
+		<button class="体育_button" onclick="体育ButtonPressed()">音乐</button>
+	
+		<button class="动漫_button" onclick="动漫ButtonPressed()">动漫</button>
+	
+		<button class="科技_button" onclick="科技ButtonPressed()">音乐</button>
+		<button class="户外_button" onclick="户外ButtonPressed()">户外</button>
+
+
+        <audio id="myAudio">
+            <source src="竖琴.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+
+
+            function 手工ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/手工1.html", "_blank");
+            }
+			function 音乐ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/音乐2.html", "_blank");
+            }
+			function 体育ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/音乐2.html", "_blank");
+            }
+			
+			function 动漫ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/动漫1.html", "_blank");
+            }
+			
+			function 科技ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/音乐2.html", "_blank");
+            }
+			function 户外ButtonPressed() {
+               var audio = document.getElementById("myAudio");
+               audio.play();
+               window.open("file:///Users/yanjia/Desktop/跨媒介期末/户外1.html", "_blank");
+            }
+     
+     
+
+	    </script>
+
+ 
+        
+    
+
+
+	</body>
+
+	
+
+
+
+</html>
